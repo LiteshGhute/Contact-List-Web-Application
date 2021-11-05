@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+}
+div{
+    background-color: bisque;
+    width: 50%;
+}
+ul{
+    padding: 2%;
+    list-style: none;
+}
+#row{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#list{
+    background-color: grey;
+}
+
+#fill-details{
+    width: 46%;
+    background-color: aquamarine; 
+    padding: 2%;
+}
+li{
+    display: flex;
+    border: black solid 2px;
+    margin: 2px;
+}
+.delete-button{
+    padding-top: 4%;
+    background-color: white;
+    /* width: min-content; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.delete-button a{
+    color: red;
+}
